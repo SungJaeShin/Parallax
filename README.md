@@ -47,4 +47,4 @@
 
   - Failure case using parallax method
 
-    <img src="./failure.png"/>
+    <img src="./failure_case.png"/>
