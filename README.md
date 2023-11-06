@@ -23,7 +23,7 @@
   - Use this Github Page [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
 
 ## 3. Results (EuRoC dataset)
-  - Parallax Results btw "**cand_1_3**" and "**cand_1_35**"
+  - **[SIFT & SURF CASE]** Parallax Results btw "**cand_1_3**" and "**cand_1_35**" 
       ```
       [Before Filtering]
       max dx: 53.6179, max dy: 27.4187, max dist: 305.486
@@ -37,14 +37,38 @@
       after filtering correspondence pair: 63
       ```
 
-  - Original Method using [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
+    - Original Method using [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
+      
+      <img src="./before_filter.png"/>
     
-    <img src="./before_filter.png"/>
+    - Filtered using parallax method
+      
+      <img src="./after_filter.png"/>
   
-  - Filtered using parallax method
+    - Failure case using parallax method
+  
+      <img src="./failure_case.png"/>
+
+  - **[ORB & SURF CASE]** Parallax Results btw "**cand_1_3**" and "**cand_1_35**" 
+      ```
+      [Before Filtering]
+      max dx: 54.5472, max dy: 336.038, max dist: 340.437
+      avg dx: 15.6673, avg dy: 18.3601, avg dist: 24.8476
+      
+      [After Filtering]
+      max dx: 18.72, max dy: 21, max dist: 25.2389
+      avg dx: 14.2445, avg dy: 17.2931, avg_dist: 22.4969
+
+      before filtering correspondence pair: 215
+      after filtering correspondence pair: 203
+      ```
+
+    - Original Method using [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
+      
+      <img src="./before_filter_orb.png"/>
     
-    <img src="./after_filter.png"/>
+    - Filtered using parallax method
+      
+      <img src="./after_filter_orb.png"/>
+  
 
-  - Failure case using parallax method
-
-    <img src="./failure_case.png"/>
