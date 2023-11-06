@@ -24,8 +24,8 @@ void drawimage(cv::Mat image1, std::vector<cv::KeyPoint> img1_kpt)
 int main()
 {
     // Road images
-    std::string img1_path = "/home/sj/workspace/paper_ws/covins_up/src/parallax/img/cand_1_3.png";
-    std::string img2_path = "/home/sj/workspace/paper_ws/covins_up/src/parallax/img/cand_1_9.png";
+    std::string img1_path = "~/src/parallax/img/cand_1_3.png";
+    std::string img2_path = "~/src/parallax/img/cand_1_35.png";
     cv::Mat img1 = cv::imread(img1_path, 1);
     cv::Mat img2 = cv::imread(img2_path, 2);
 
