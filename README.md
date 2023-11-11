@@ -91,7 +91,7 @@ Clone the repository and build and run simultaneously:
       <img src="./after_filter_orb.png"/>
   
   - **[Solve Failure CASE]** Using DAISY btw "**cand_1_3**" and "**cand_1_35**"
-   ```
+      ```
       [GFTT + SURF CASE]
       max dx: 0, max dy: 0, max dist: 0
       avg dx: -nan, avg dy: -nan, avg_dist: -nan
@@ -108,12 +108,11 @@ Clone the repository and build and run simultaneously:
       optical flow corresponedence pair: 36
       after filtering correspondence pair: 34
       ```
+      - [GFTT + SURF CASE] Final Results
 
-    - [GFTT + SURF CASE] Final Results
-      
-      <img src="./after_filter_gftt_suft.png"/>
+        <img src="./after_filter_gftt_suft.png"/>
     
-    - [GFTT + DAISY CASE] Final Results
+      - [GFTT + DAISY CASE] Final Results
       
-      <img src="./after_filter_gftt_daisy.png"/>
+        <img src="./after_filter_gftt_daisy.png"/>
 
