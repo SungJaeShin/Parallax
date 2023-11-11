@@ -22,7 +22,16 @@
 ## 2. Methodology to apply feature matching
   - Use this Github Page [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
 
-## 3. Results (EuRoC dataset)
+## 3. Build and Run
+Clone the repository and build and run simultaneously:
+```  
+   $ cd ${workspace}
+   $ git clone https://github.com/SungJaeShin/Parallax.git
+   $ cd Parallax/src
+   $ sh compile_parallax_code.sh
+```
+
+## 4. Results (EuRoC dataset)
   - **[SIFT & SURF CASE]** Parallax Results btw "**cand_1_3**" and "**cand_1_35**" 
       ```
       [Before Filtering]
@@ -34,12 +43,17 @@
       avg dx: 15.0051, avg dy: 16.2881, avg_dist: 22.3998
       
       before filtering correspondence pair: 69
+      optical flow corresponedence pair: 69
       after filtering correspondence pair: 63
       ```
 
     - Original Method using [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
       
       <img src="./before_filter.png"/>
+
+    - Filtered using optical flow method
+      
+      <img src="./optical_flow_sift.png"/>
     
     - Filtered using parallax method
       
@@ -60,12 +74,17 @@
       avg dx: 14.2445, avg dy: 17.2931, avg_dist: 22.4969
 
       before filtering correspondence pair: 215
+      optical flow corresponedence pair: 211
       after filtering correspondence pair: 203
       ```
 
     - Original Method using [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
       
       <img src="./before_filter_orb.png"/>
+
+    - Filtered using optical flow method
+      
+      <img src="./optical_flow_orb.png"/>
     
     - Filtered using parallax method
       
