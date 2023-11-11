@@ -20,7 +20,8 @@
    - OpenCV 3.2.0, OpenCV Contrib 3.2.0, C++ 11 version 
 
 ## 2. Methodology to apply feature matching
-  - Use this Github Page [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
+  - [BASIC] Use this Github Page [Feature Matching](https://github.com/SungJaeShin/Feature_matching)
+  - [ADD] [Optical Flow Method](https://docs.opencv.org/3.4/dc/d6b/group__video__track.html#ga473e4b886d0bcc6b65831eb88ed93323) 
 
 ## 3. Build and Run
 Clone the repository and build and run simultaneously:
