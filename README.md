@@ -32,6 +32,33 @@ Clone the repository and build and run simultaneously:
 ```
 
 ## 4. Results (EuRoC dataset)
+  - **[BEST CASE]** Best Results btw "**cand_1_3**" and "**cand_1_25**"
+      ```
+      ["cand_1_3" and "cand_1_25"]
+      max dx: 12.2113, max dy: 108.67, max dist: 109.316
+      avg dx: 11.7414, avg dy: 106.379, avg_dist: 107.026
+
+      before filtering correspondence pair: 41
+      optical flow corresponedence pair: 37
+      after filtering correspondence pair: 13
+      
+      ["cand_1_25" and "cand_1_3"]
+      max dx: 12.2113, max dy: 102.987, max dist: 103.708
+      avg dx: 10.9453, avg dy: 100.462, avg_dist: 101.058
+      
+      before filtering correspondence pair: 32
+      optical flow corresponedence pair: 17
+      after filtering correspondence pair: 14
+      ```
+    - Results "cand_1_3" and "cand_1_25" using SIFT + DAISY
+      
+      <img src="./best_after_filter_sift_daisy.png"/>
+  
+    - Results "cand_1_25" and "cand_1_3" using SIFT + DAISY
+  
+      <img src="./best_after_filter_sift_daisy2.png"/>
+   
+
   - **[SIFT & SURF CASE]** Parallax Results btw "**cand_1_3**" and "**cand_1_35**" 
       ```
       [Before Filtering]
