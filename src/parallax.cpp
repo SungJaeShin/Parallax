@@ -14,8 +14,8 @@
 int main()
 {
     // Road images
-    std::string img1_path = "/home/sj/workspace/paper_ws/covins_up/src/parallax/img/cand_1_3.png";
-    std::string img2_path = "/home/sj/workspace/paper_ws/covins_up/src/parallax/img/cand_1_25.png";
+    std::string img1_path = "~/parallax/img/cand_1_3.png";
+    std::string img2_path = "~/parallax/img/cand_1_25.png";
     cv::Mat img1 = cv::imread(img1_path, 1);
     cv::Mat img2 = cv::imread(img2_path, 1);
 
