@@ -28,7 +28,7 @@ Clone the repository and build and run simultaneously:
 ```  
    $ cd ${workspace}
    $ git clone https://github.com/SungJaeShin/Parallax.git
-   $ cd Parallax/src
+   $ cd Parallax
    $ sh compile_parallax_code.sh
 ```
 
